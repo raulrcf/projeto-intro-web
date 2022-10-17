@@ -20,7 +20,7 @@ const medialancamento = lancamento1 + lancamento2 + lancamento3 / 3
 
 
 console.log("media dos valores number : " + medialancamento.toFixed(2))
-console.log("verificação dos valores booleanos  : " + classificacaoIDMaior)
+console.log("verificação dos valores booleanos  : "+classificacaoIDMaior)
 console.log("nome letra maiuscula "+jogo1nome.toUpperCase(), lancamento1, classificaoid181, Plataformasjogo1)
 
 
