@@ -130,7 +130,7 @@ function listaJogos(jogoarray){
     {
         campo.innerHTML+=
             `
-            <ul>
+            < ul>
                 <section>
                     <img src="  ${jogoarray[i].imagemjogo}  ">
                         <div>
@@ -139,7 +139,7 @@ function listaJogos(jogoarray){
                             <p class="clasid">Para maior de idade ? :  ${jogoarray[i].classificaoid}  </p>
                         </div>
                 </section>
-            </ul>
+            </ul >
             `
     }
 }
