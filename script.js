@@ -3,7 +3,7 @@ const lancamento1 = 2018
 const classificaoid181 = true
 const Plataformasjogo1 = "Ação e aventura, RPG, Luta"
 
-const jogo2nome = "The last of us II"
+const jogo2nome = "The last of us II "
 const lancamento2 = 2020
 const classificaoid182 = true
 const Plataformasjogo2 = "Survival Horror, Terror, Tiro"
@@ -130,7 +130,7 @@ function listaJogos(jogoarray){
     {
         campo.innerHTML+=
             `
-            <ul>
+            < ul>
                 <section>
                     <img src="  ${jogoarray[i].imagemjogo}  ">
                         <div>
@@ -139,7 +139,7 @@ function listaJogos(jogoarray){
                             <p class="clasid">Para maior de idade ? :  ${jogoarray[i].classificaoid}  </p>
                         </div>
                 </section>
-            </ul>
+            </ul >
             `
     }
 }
